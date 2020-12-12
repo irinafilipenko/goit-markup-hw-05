@@ -62,7 +62,7 @@
          <section class="hero">
             <div class="container">
                <h1 class="hero-title">Эффективные решения для вашего бизнеса</h1>
-               <button class="modal-btn" type="button">Заказать услугу</button>
+               <button class="modal-btn" type="button" data-modal-open>Заказать услугу</button>
             </div>
          </section>
         
@@ -70,45 +70,47 @@
          <!--MAIN-->
         <section class="main">
           <h2 class="visually-hidden">Преимущества</h2>
-            
               <ul class="main-list container">
-                <li class="main-list-item">
-                   <div class="main-icon-container">
-                   <svg class="main-icon">
-                      <use href="./images/sprite.svg#icon-antenna"></use>
-                   </svg>
-                  </div>
-                     <h3 class="main-list-title">Внимание к деталям</h3>
-                     <p class="main-list-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
-                  
-                  </li>
-                <li class="main-list-item">
-                  <div class="main-icon-container">
-                     <svg class="main-icon">
+                
+                 <li class="main-list-item">
+                    <div class="main-icon-container">
+                      <svg class="main-icon">
+                        <use href="./images/sprite.svg#icon-antenna"></use>
+                     </svg>
+                   </div>
+                      <h3 class="main-list-title">Внимание к деталям</h3>
+                      <p class="main-list-description">Идейные соображения, а также начало повседневной работы по формированию позиции.</p>
+                 </li>
+
+                 <li class="main-list-item">
+                    <div class="main-icon-container">
+                      <svg class="main-icon">
                         <use href="./images/sprite.svg#icon-clock"></use>
-                     </svg>
-                  </div>
-                     <h3 class="main-list-title">Пунктуальность</h3>
-                     <p class="main-list-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
-                </li>
-                <li class="main-list-item">
-                  <div class="main-icon-container">
-                     <svg class="main-icon" >
+                      </svg>
+                    </div>
+                      <h3 class="main-list-title">Пунктуальность</h3>
+                      <p class="main-list-description">Задача организации, в особенности же рамки и место обучения кадров влечет за собой.</p>
+                 </li>
+
+                 <li class="main-list-item">
+                    <div class="main-icon-container">
+                      <svg class="main-icon" >
                         <use href="./images/sprite.svg#icon-diagram"></use>
-                     </svg>
-                  </div>
-                     <h3 class="main-list-title">Планирование</h3>
-                     <p class="main-list-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
-                </li>
-                <li class="main-list-item">
-                  <div class="main-icon-container">
-                     <svg class="main-icon">
+                      </svg>
+                   </div>
+                       <h3 class="main-list-title">Планирование</h3>
+                       <p class="main-list-description">Равным образом консультация с широким активом в значительной степени обуславливает.</p>
+                 </li>
+
+                 <li class="main-list-item">
+                    <div class="main-icon-container">
+                      <svg class="main-icon">
                         <use href="./images/sprite.svg#icon-astronaut"></use>
-                     </svg>
-                  </div>
-                     <h3 class="main-list-title">Современные технологии</h3>
-                     <p class="main-list-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
-                </li>
+                      </svg>
+                   </div>
+                      <h3 class="main-list-title">Современные технологии</h3>
+                      <p class="main-list-description">Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p>
+                 </li>
               </ul>
             
          </section>
@@ -118,22 +120,29 @@
              <div class="container">
                 <h2 class="section-title">Чем мы занимаемся</h2>
                 <ul class="galery-list">
+                  
                   <li class="galery-list-item">
-                     <img class="galery-img" src="./images/img1.jpg"
-                      alt="работа с ПК"
-                      width="370" height="294">
+                     <img class="galery-img" src="./images/img1.jpg" 
+                           alt="работа с ПК" 
+                           width="370" height="294">
+                      <h3 class="galery-img-title">Десктопные приложения</h3>
                   </li>
+                  
                   <li class="galery-list-item">
                      <img class="galery-img" src="./images/img2.jpg" 
-                     alt="работа со смартфоном" 
-                      width="370" height="294">
+                        alt="работа со смартфоном" 
+                        width="370" height="294">
+                     <h3 class="galery-img-title">Мобильные приложения</h3>
                   </li>
+                  
                   <li class="galery-list-item">
                      <img class="galery-img" src="./images/img3.jpg" 
-                     alt="работа с планшетом" 
-                     width="370" height="294">
+                       alt="работа с планшетом" 
+                       width="370" height="294">
+                     <h3 class="galery-img-title">Дизайнерские решения</h3>
                   </li>
-                </ul>
+                
+               </ul>
             </div>
          </section>
 
@@ -142,50 +151,52 @@
             <div class="container">
              <h2 class="section-title">Наша команда</h2>
               <ul class="about-me-list">
-                  <li class="about-me-item">
-                     <img class="about-me-img" src="./images/igor.jpg" 
+                  
+                <li class="about-me-item">
+                   <img class="about-me-img" src="./images/igor.jpg" 
                         alt="Игорь Демьяненко" width="270" height="260">
-                      <div class="about-me-description">
+                     <div class="about-me-description">
                          <h3 class="about-me-name">Игорь Демьяненко</h3>
                          <p class="about-me-profession" lang="en">Product Designer</p>
                      </div>
-                     <ul class="social-list">
-                        <li class="social-list-item">
-                           <a class="social-list-link" href="">
+                       <ul class="social-list">
+                         <li class="social-list-item">
+                            <a class="social-list-link" href="">
                               <svg class="social-list-icon">
                                  <use href="./images/sprite.svg#icon-instagram"></use>
                               </svg>
-                           </a>
-                        </li>
-                        <li class="social-list-item">
-                           <a class="social-list-link" href="">
+                            </a>
+                         </li>
+                         <li class="social-list-item">
+                            <a class="social-list-link" href="">
                               <svg class="social-list-icon">
                                  <use href="./images/sprite.svg#icon-twitter"></use>
                               </svg>
-                           </a>
-                        </li>
-                        <li class="social-list-item">
-                           <a class="social-list-link" href="">
+                            </a>
+                         </li>
+                         <li class="social-list-item">
+                            <a class="social-list-link" href="">
                               <svg class="social-list-icon">
                                  <use href="./images/sprite.svg#icon-facebook"></use>
                               </svg>
-                           </a>
-                        </li>
-                        <li class="social-list-item">
-                           <a class="social-list-link" href="">
+                            </a>
+                         </li>
+                         <li class="social-list-item">
+                            <a class="social-list-link" href="">
                               <svg class="social-list-icon">
                                  <use href="./images/sprite.svg#icon-linkedin"></use>
                               </svg>
-                           </a>
-                        </li>
+                            </a>
+                         </li>
                      </ul>
                  </li>
+
                  <li class="about-me-item">
                      <img class="about-me-img" src="./images/olga.jpg" 
-                     alt="Ольга Репина" width="270" height="260">
-                       <div class="about-me-description">
-                         <h3 class="about-me-name">Ольга Репина</h3>
-                         <p class="about-me-profession" lang="en">Frontend Developer</p>
+                       alt="Ольга Репина" width="270" height="260">
+                        <div class="about-me-description">
+                          <h3 class="about-me-name">Ольга Репина</h3>
+                          <p class="about-me-profession" lang="en">Frontend Developer</p>
                        </div>
                      <ul class="social-list">
                         <li class="social-list-item">
@@ -218,12 +229,13 @@
                         </li>
                      </ul>
                  </li>
+
                  <li class="about-me-item">
                      <img class="about-me-img" src="./images/taras.jpg" 
-                     alt="Николай Тарасов" width="270" height="260">
+                       alt="Николай Тарасов" width="270" height="260">
                        <div class="about-me-description">
                           <h3 class="about-me-name">Николай Тарасов</h3>
-                         <p class="about-me-profession" lang="en">Marketing</p>
+                          <p class="about-me-profession" lang="en">Marketing</p>
                       </div>
                      <ul class="social-list">
                         <li class="social-list-item">
@@ -256,14 +268,15 @@
                         </li>
                      </ul>
                  </li>
+
                  <li class="about-me-item">
                      <img class="about-me-img" src="./images/maikl.jpg" 
-                     alt="Михаил Ермаков" width="270" height="260">
+                       alt="Михаил Ермаков" width="270" height="260">
                         <div class="about-me-description">
                           <h3 class="about-me-name">Михаил Ермаков</h3>
                           <p class="about-me-profession" lang="en">UI Designer</p>
                        </div>
-                     <ul class="social-list">
+                      <ul class="social-list">
                         <li class="social-list-item">
                            <a class="social-list-link" href="">
                               <svg class="social-list-icon">
@@ -300,7 +313,7 @@
      
 
    
-   <!--------Постоянные клиенты--------->
+   <!--Постоянные клиенты-->
      <section class="clients">
          <div class="container">
              <h2 class="section-title">Постоянные клиенты</h2>
@@ -408,8 +421,18 @@
              </div>
        </div>
      </footer> 
-
-    
+ 
+     <div class="backdrop is-hidden" data-modal>
+        <div class="modal">
+           <button  type="button" class="close-button" data-modal-close>
+             <svg class="close-icon">
+               <use href="./images/sprite.svg#icon-close-black"></use>
+             </svg>
+          </button>
+       </div>
+   </div>
+   
+<script src="./js/modal.js"></script>
 </body>
 </html>
         
